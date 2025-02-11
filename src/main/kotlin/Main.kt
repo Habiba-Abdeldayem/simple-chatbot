@@ -1,6 +1,10 @@
 package org.example
 
+import java.time.Year
+
 fun main() {
-    println("Hello! My name is Aid.")
-    println("I was created in 2025.")
+    val botName = "Aid"
+    val birthYear = Year.now().value
+    println("Hello! My name is $botName.")
+    println("I was created in $birthYear.")
 }
