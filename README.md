@@ -23,19 +23,6 @@ The bot follows a structured flow:
 5. **Programming Quiz:** Asks a multiple-choice question and waits for the correct answer.
 6. **End Message:** Congratulates the user upon completion.
 
-## Installation and Running
-To run this Kotlin program:
-1. Ensure you have **Kotlin** installed on your system.
-2. Save the file as `Bot.kt`.
-3. Compile and run using:
-   ```sh
-   kotlinc Bot.kt -include-runtime -d Bot.jar
-   java -jar Bot.jar
-   ```
-   Or if using Kotlin directly:
-   ```sh
-   kotlin Bot.kt
-   ```
 
 ## Example Interaction
 ```
